@@ -39,5 +39,5 @@ class Notebook:
         for note in self.notes.values():
             for tag in note.tags:
                 tag_count[tag] = tag_count.get(tag, 0) + 1
-        return tag_count # Aquí se corrigió el error, añadiendo el punto y coma
+        return tag_count
 
